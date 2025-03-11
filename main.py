@@ -54,7 +54,7 @@ def main():
         elif choice == "3":
             leave_review()
         elif choice == "4":
-            print("I understand. They will be with you shortly.")
+            print("Unfortunately, we are a chatbot and not a real human being. If you would like to speak to a manager, contact our customer service line at 555-555-5555. Thank you!")
         elif choice == "5":
             print("Goodbye " + name + ", I hope you have enjoyed your stay!")
             break
