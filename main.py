@@ -4,6 +4,16 @@ print("Welcome to the food ordering ChatBot.")
 name = input("What is your name? ")
 age = input("Hello " + name + ", how old are you? ")
 
+while age<18:
+    age_choice = input("Please find a parent or guardian to assist you in these issues. Are they with you now? Please type 'Yes' or 'No'").strip().lower()
+    if age_choice =='yes':
+        age = 18
+    elif age_choice=='no':
+        print("Incorrect!")
+    else:
+        print("Incorrect input. Please type 'Yes' or 'No'.")
+
+
 print("How may we help you?")
 print(" ")
 print("Please select one from the following:")
