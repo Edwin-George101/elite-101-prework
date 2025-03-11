@@ -34,18 +34,21 @@ print("3. I would like to leave a positive review.")
 print("4. I would like to speak to your manager.")
 print("5. Exit the conversation!")
 
-while True:
-    choice = input("\nWhat would you like to do? ")
-    if choice == "1":
-        charity()
-    elif choice == "2":
-        not_satisfied()
-    elif choice == "3":
-        leave_review()
-    elif choice == "4":
-        print("I understand. They will be with you shortly.")
-    elif choice == "5":
-        print("Goodbye " + name + ", I hope you have enjoyed your stay!")
-        break
-    else:
-        print("Invalid choice. Please pick a different option.")
+def main():
+    while True:
+        choice = input("\nWhat would you like to do? ")
+        if choice == "1":
+            charity()
+        elif choice == "2":
+            not_satisfied()
+        elif choice == "3":
+            leave_review()
+        elif choice == "4":
+            print("I understand. They will be with you shortly.")
+        elif choice == "5":
+            print("Goodbye " + name + ", I hope you have enjoyed your stay!")
+            break
+        else:
+            print("Invalid choice. Please pick a different option.")
+
+main()
