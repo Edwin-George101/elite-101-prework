@@ -1,0 +1,1 @@
+Here is my Elite 101 Chabot based on a restaurant! I imported the random feature to give more of a "Chatbot" like feel. Feel free to send me any feedback that may help me in my journey as a developer! Thank you for taking the time to review my chatbot. 
